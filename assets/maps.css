@@ -15,3 +15,18 @@
 
 /* Compact image-led cards: cropped previews only; article maps remain intact. */
 .map-main,.maps-page .topbar{max-width:1160px}.map-grid{gap:28px}.map-preview{aspect-ratio:16/9}.map-preview img{object-fit:cover;object-position:center 42%;transform:scale(1.12)}.map-preview:hover img{transform:scale(1.12)}.card-copy{padding:23px 24px 26px}.card-copy>p:not(.eyebrow){display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}.play-tag{font-size:10px;padding:3px 8px;bottom:9px;left:9px}
+
+/* Individually composed gallery crops; original artwork is untouched. */
+.map-preview[href="/maps/africa-top-exports/"] img{position:absolute;width:151.51515%;height:336.70034%;max-width:none;left:-25.75758%;top:-61.11111%;object-fit:fill;transform:none}
+.map-preview[href="/maps/african-rift/"] img{position:absolute;width:156.25000%;height:256.48148%;max-width:none;left:-56.25000%;top:-60.28704%;object-fit:fill;transform:none}
+.map-preview[href="/maps/cable-landing-clusters/"] img{position:absolute;width:111.11111%;height:123.56653%;max-width:none;left:-5.55556%;top:0.00000%;object-fit:fill;transform:none}
+.map-preview[href="/maps/global-shipping-lanes/"] img{position:absolute;width:111.11111%;height:246.91358%;max-width:none;left:-10.00000%;top:-19.13580%;object-fit:fill;transform:none}
+.map-preview[href="/maps/land-opposite-land/"] img{position:absolute;width:106.38298%;height:113.47518%;max-width:none;left:-3.19149%;top:-3.33333%;object-fit:fill;transform:none}
+.map-preview[href="/maps/new-york-noise/"] img{position:absolute;width:163.93443%;height:333.28473%;max-width:none;left:-51.63934%;top:-99.97813%;object-fit:fill;transform:none}
+.map-preview[href="/maps/ocean-clarity/"] img{position:absolute;width:106.38298%;height:130.07618%;max-width:none;left:-3.19149%;top:-8.53428%;object-fit:fill;transform:none}
+.map-preview[href="/maps/red-sea-shift/"] img{position:absolute;width:138.88889%;height:194.23868%;max-width:none;left:-29.16667%;top:-23.81070%;object-fit:fill;transform:none}
+.map-preview[href="/maps/refugee-camps/"] img{position:absolute;width:153.84615%;height:341.88034%;max-width:none;left:-42.30769%;top:-107.26496%;object-fit:fill;transform:none}
+.map-preview[href="/maps/somalia-wind/"] img{position:absolute;width:131.57895%;height:286.43036%;max-width:none;left:-23.68421%;top:-41.65772%;object-fit:fill;transform:none}
+.map-preview[href="/maps/tariff-shock/"] img{position:absolute;width:111.11111%;height:131.68724%;max-width:none;left:-6.66667%;top:-7.94239%;object-fit:fill;transform:none}
+.map-preview[href="/maps/temperature-records/"] img{position:absolute;width:106.38298%;height:118.30838%;max-width:none;left:-4.25532%;top:-5.60494%;object-fit:fill;transform:none}
+.map-preview[href="/maps/turkiye-population/"] img{position:absolute;width:112.35955%;height:249.68789%;max-width:none;left:-7.30337%;top:-19.91261%;object-fit:fill;transform:none}
