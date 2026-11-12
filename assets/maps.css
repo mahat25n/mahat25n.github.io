@@ -6,3 +6,6 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.map-preview img{transition:none}}
 
 .essay p{font-size:18px;line-height:1.85;color:#354b58;margin-bottom:23px}.essay h2{font-size:23px;margin:35px 0 16px;color:#203641}.essay p:first-child{font-size:21px}.post-caption{max-width:780px}@media(max-width:650px){.essay p,.essay p:first-child{font-size:17px}.essay h2{font-size:21px}}
+
+/* Larger previews, three columns on desktop, neutral interface colours. */
+.map-main,.maps-page .topbar{max-width:1480px}.map-grid{gap:28px 18px}.map-preview{aspect-ratio:4/5}.map-preview:hover img{transform:none}.eyebrow,.back-link{color:#60666c}.map-filters button[aria-pressed=true]{background:#30363c;border-color:#30363c}.card-copy h2 a,.post-heading h1,.essay h2{color:#23292f}.post-caption a{color:#3e5365}.map-intro{padding-top:42px;padding-bottom:26px}.map-intro h1{font-size:64px}.intro-text{font-size:18px}.map-preview img{object-fit:contain}@media(min-width:1001px){.map-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
