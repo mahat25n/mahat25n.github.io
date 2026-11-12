@@ -10,7 +10,13 @@
     "tags": "Africa · Displacement",
     "width": 2200,
     "height": 2750,
-    "video": null
+    "video": null,
+    "essay": [
+      "A refugee camp is often discussed as an emergency response. Its duration raises a different economic question: what happens when a temporary settlement becomes part of a region’s everyday economy? Housing, water, schools and access to work require decisions with much longer horizons than an initial relief operation.",
+      "The map follows camp sites in sub-Saharan Africa recorded in the African Refugee Camp Dataset between 1999 and 2024. Each point represents a site, with sub-camps and reopenings combined in the mapped preparation. Circle size records years in operation; the distinction between open and closed refers to the end of 2024. A large circle therefore represents duration, not a large refugee population.",
+      "For an economist, the relevant unit extends outside the camp boundary. Residents buy goods, seek employment and use infrastructure shared with neighbouring communities. These connections create questions about local prices, labour demand and public-service provision. The map identifies where such questions arise; it does not establish whether a camp raised incomes or strained services in a particular host community.",
+      "Long-lived sites make the distinction between humanitarian expenditure and development investment harder to sustain. A water network or school must be assessed against the people likely to use it over time, including host residents. The practical lesson is to investigate settlement histories before treating every camp as a short-lived interruption. Population histories, legal rights and local economic data would be needed to move from this geographic account to an assessment of welfare."
+    ]
   },
   {
     "slug": "global-shipping-lanes",
@@ -23,7 +29,13 @@
     "tags": "World · Shipping",
     "width": 2400,
     "height": 3000,
-    "video": null
+    "video": null,
+    "essay": [
+      "Trade between countries takes place through a much narrower set of physical routes than a conventional political map suggests. Shipping corridors connect producers and consumers, but they also concentrate exposure. A passage that reduces transport distance in ordinary times can become a source of delay when access is disrupted.",
+      "This map uses the World Bank and IMF Global Shipping Traffic Density dataset. Brighter lines indicate greater recorded traffic density on a logarithmic scale. The world view uses the Equal Earth projection, while the regional inset uses Lambert Conformal Conic to examine the Red Sea, Gulf of Aden and Strait of Hormuz. The inset makes the geography of constrained passages easier to read.",
+      "Traffic density is not the same as the value of trade. Ships differ in size, cargo and economic purpose, so a bright route cannot be read as a ranking of export earnings. Nor does this static image show how a disruption changed traffic. It describes the network against which a change would need to be measured.",
+      "The economic question is how much flexibility that network offers. A longer route uses vessel time as well as fuel. For firms, delays also change inventory requirements and the time between paying for inputs and receiving revenue. Those are mechanisms to examine, not costs estimated by this map. Understanding the alternatives to a busy corridor is therefore as important as identifying the corridor itself."
+    ]
   },
   {
     "slug": "africa-top-exports",
@@ -36,7 +48,13 @@
     "tags": "Africa · Trade",
     "width": 2400,
     "height": 3000,
-    "video": null
+    "video": null,
+    "essay": [
+      "A country’s leading export is a useful introduction to its trading economy, but it is an incomplete account of how that economy earns income. This map asks a deliberately narrow question: which product generates the largest recorded export value in each African country?",
+      "The data come from CEPII’s BACI bilateral merchandise-trade database. The map compares products at the four-digit Harmonized System level for 2024 and excludes aircraft and ships. Country colours identify the leading product category. They do not measure export value, trade growth or the contribution of exports to household income.",
+      "A dominant product can connect a country to a large international market while exposing it to changes in the price of that product. The consequences depend on more than its position in a ranking. Economists would also examine its share of total exports, domestic value added, employment and the destination of export receipts. A capital-intensive activity and a labour-intensive activity can produce similar export revenues with very different effects on employment.",
+      "The map offers a starting point for a discussion of diversification. Diversification is not simply a matter of adding more product names to a list. It concerns the capabilities, transport links and institutions that allow firms to compete in additional markets. Services and production for domestic consumers are outside this merchandise-export picture, so the colours should never be mistaken for a complete description of national economic activity."
+    ]
   },
   {
     "slug": "cable-landing-clusters",
@@ -49,7 +67,13 @@
     "tags": "World · Infrastructure",
     "width": 4800,
     "height": 3000,
-    "video": null
+    "video": null,
+    "essay": [
+      "Digital services depend on physical infrastructure. International connections come ashore at identifiable places, bringing the geography of the coast into activities that appear independent of distance. The economic interest is not only where cables arrive, but how concentrated those arrival points are.",
+      "I used TeleGeography’s submarine-cable landing-point data and DBSCAN spatial clustering to group nearby locations. Colours represent the number of landing points in a cluster; grey marks points outside those groups. The Robinson projection provides the global view. The underlying inventory includes existing and planned infrastructure, and the locations are approximate.",
+      "A cluster counts landing points, not bandwidth, internet users or the value of digital trade. Several nearby points may reflect a concentration of infrastructure without providing independent routes all the way to inland users. A proposed landing point also does not deliver the same current service as an operating connection. These distinctions matter before interpreting a large symbol as an economic advantage.",
+      "Concentration poses a familiar economic trade-off. Shared infrastructure and proximity can reduce connection costs, while dependence on a limited set of locations can create common exposure. Whether a coastal connection benefits inland firms depends on domestic transmission networks, competition, electricity and affordability. The map locates the coastal part of that question. It cannot, by itself, establish the quality or resilience of the service people receive."
+    ]
   },
   {
     "slug": "ocean-clarity",
@@ -62,7 +86,13 @@
     "tags": "World · Oceans",
     "width": 4800,
     "height": 3300,
-    "video": null
+    "video": null,
+    "essay": [
+      "Ocean conditions matter to economic activities that share the same coastal space. Fishing, tourism, shipping and coastal development use marine environments in different ways. Before discussing their costs or benefits, it helps to distinguish what a satellite can observe from what an economic assessment would need to know.",
+      "This map uses ESA Ocean Colour CCI version 6.0, accessed through NOAA OceanWatch, for the monthly September 2026 field. The mapped variable is Kd490, the diffuse attenuation coefficient at a wavelength of 490 nanometres. It describes how quickly light diminishes with depth. Lower values indicate that light penetrates farther into the water; missing observations remain separate from the colour classes.",
+      "The Equal Earth projection supports comparison across the global map. Coastal differences invite questions about sediment, biological activity and the processes that affect light penetration, but the colours do not identify their causes. Clearer water is not automatically healthier water, and high attenuation is not a direct measure of pollution or economic damage.",
+      "An economic application would connect changes in this physical measure to a particular activity and time period. For example, assessing a coastal intervention would require observations before and after it, a credible comparison and evidence on the affected resource or service. This map supplies environmental context rather than that evaluation. Keeping that distinction clear prevents an attractive image from becoming an unsupported claim about water quality or livelihoods."
+    ]
   },
   {
     "slug": "temperature-records",
@@ -75,7 +105,13 @@
     "tags": "World · Climate",
     "width": 3200,
     "height": 2000,
-    "video": null
+    "video": null,
+    "essay": [
+      "The capacity to measure climate has an economic geography of its own. Weather records support decisions about crops, infrastructure and insurance, but their usefulness depends partly on how far back they reach. This map turns attention from temperature itself to the history of its observation.",
+      "Station records come from NOAA’s Global Historical Climatology Network monthly dataset, GHCN-M version 4. Each station is coloured by the beginning of its temperature record. A double-hemisphere composition gives the map the character of an older atlas while retaining a clearly defined statistical subject: the recorded start of a station series.",
+      "An early start does not guarantee continuous observations, stable instruments or an unchanged site. The map also does not weight stations by the population or economic activity around them. It should therefore be read as an account of record beginnings, not as a league table of climate-data quality.",
+      "Long records can provide context for judging whether recent conditions are unusual. Where records are shorter or incomplete, uncertainty enters decisions that already involve long horizons. An economist would ask who bears that uncertainty and whether investment in observation has benefits beyond the institution collecting the data. The map makes the measurement infrastructure visible, without pretending to value those benefits or measure the accuracy of any particular climate forecast."
+    ]
   },
   {
     "slug": "land-opposite-land",
@@ -88,7 +124,13 @@
     "tags": "World · Geography",
     "width": 3200,
     "height": 1920,
-    "video": null
+    "video": null,
+    "essay": [
+      "Geographic distance is easy to describe and surprisingly easy to misinterpret. Two places can be physically far apart while remaining commercially well connected. Others can be much closer but separated by costly transport links. This map begins with a geometric extreme: the point directly opposite a location on Earth.",
+      "I used Natural Earth land polygons, transformed their coordinates to antipodal positions and compared the resulting geometry with land. Orange identifies land whose antipode also lies on land. The Equal Earth projection presents those overlaps in a single global view. This is a geometric exercise, not a dataset of travel routes or economic exchanges.",
+      "The economic connection lies in the distinction between physical and effective distance. Trade models often use distance as an indicator of the costs of moving goods, information and people. Actual costs depend on ports, transport services, border procedures and the nature of the product. Antipodal position says nothing about whether two places have a direct connection.",
+      "That limitation is the point of the exercise. A globe gives us a precise definition of remoteness in space, while economic remoteness depends on the network through which people transact. The map is useful as a visual prompt for that distinction. It does not imply that opposite regions trade little, share economic characteristics or face comparable development constraints."
+    ]
   },
   {
     "slug": "somalia-wind",
@@ -101,7 +143,13 @@
     "tags": "Somalia · Energy",
     "width": 3000,
     "height": 3674,
-    "video": null
+    "video": null,
+    "essay": [
+      "A renewable-energy resource becomes an economic asset only when it can be converted into reliable, affordable power. Somalia’s wind resource invites that discussion, but a resource map and an investment appraisal answer different questions.",
+      "The colours show modelled mean wind speed at 100 metres above ground from Global Wind Atlas 3. Terrain information from AWS Terrain Tiles provides geographic context, with Natural Earth supplying the base geography. Python was used to prepare and combine these layers. The image represents wind conditions at a stated height, not electricity already generated.",
+      "A windy location is one input into a project decision. Transmission distance, access, maintenance, financing and the timing of electricity demand also affect its value. Mean wind speed does not describe all the variation over a day or year, and it cannot be converted directly into output without specifying a turbine and its operating characteristics.",
+      "The economic question is therefore where a resource could meet demand at an acceptable delivered cost. For communities and businesses, reliability matters alongside price. Investment choices would need site measurements, network information and a realistic account of who would purchase the power. The map gives that conversation a geographic starting point; it does not rank projects or promise a particular amount of generation."
+    ]
   },
   {
     "slug": "turkiye-population",
@@ -114,7 +162,13 @@
     "tags": "Türkiye · Population",
     "width": 3000,
     "height": 3750,
-    "video": null
+    "video": null,
+    "essay": [
+      "The boundary of a province is not the boundary of a city’s economy. Households, jobs and transport connections form patterns within and across administrative areas. Looking at population in small geographic cells provides a different view from comparing provincial totals.",
+      "This map draws on the European Commission’s Global Human Settlement Layer population estimates for 2025. It presents Türkiye alongside a closer view of İstanbul. The brighter, raised areas represent greater population in the mapped cells, not the height of the terrain. These are gridded estimates, so they should not be treated as a fresh enumeration of every neighbourhood.",
+      "Population concentration creates questions about access and capacity. A dense area may support frequent public transport and nearby services, but the population map alone cannot tell us whether either is available. A sparsely populated area may face a different problem: providing essential services across greater distances. Neither pattern establishes whether residents are economically better off.",
+      "For public investment, the useful comparison is between where people live and where opportunities and services are located. Schools, hospitals, employment and commuting data would add the missing parts. The İstanbul inset helps expose differences that disappear at national scale. It encourages a finer reading of urban and rural space without confusing population density with productivity, prosperity or service quality."
+    ]
   },
   {
     "slug": "african-rift",
@@ -127,7 +181,13 @@
     "tags": "Africa · Geology",
     "width": 3000,
     "height": 2770,
-    "video": null
+    "video": null,
+    "essay": [
+      "The physical geography of a continent sets conditions within which economic decisions are made. Relief affects the routes available to roads and other infrastructure, while tectonic settings raise questions about hazards and natural resources. Those questions require care because a physical feature is not an economic outcome.",
+      "I combined NOAA ETOPO 2022 elevation and bathymetry with PB2002 plate boundaries and Natural Earth geographic layers. Shaded relief helps the reader see changes in terrain, while the marked lines identify boundaries from the plate model. Python was used to prepare and render the layers. The image describes a tectonic setting; it does not forecast the timing of a future geological event.",
+      "For an economist, one relevant issue is the cost of connecting settlements across uneven terrain. Another is how long-lived infrastructure accounts for hazards. A plate boundary, however, is not a local hazard probability, and elevation alone cannot establish construction costs. Both applications require engineering and site-specific information beyond the map.",
+      "The title refers to a geological process, not an imminent division of the continent or its economies. Treating the image as a forecast would obscure its more useful contribution: helping readers locate the physical systems that economic planning must investigate. Geography frames the questions, while institutions, technology and investment choices shape the responses."
+    ]
   },
   {
     "slug": "new-york-noise",
@@ -140,7 +200,13 @@
     "tags": "New York · Sound",
     "width": 4200,
     "height": 4800,
-    "video": null
+    "video": null,
+    "essay": [
+      "Noise is an economic problem because its costs often fall on someone other than the person or activity producing it. A resident may bear the disturbance while another person receives the benefit of transport, construction or entertainment. The difficult policy question is how to manage those competing uses of urban space.",
+      "I mapped NYC 311 noise service requests submitted during July 2025 between 11 pm and 7 am, using the source’s local timestamps. Located reports were grouped into hexagons. Purple indicates fewer reports, with pink, orange and yellow marking higher counts. Python handled the filtering, spatial aggregation and map rendering.",
+      "The resulting pattern describes reporting, not measured sound. Several requests may concern one event, and the time of a complaint is not necessarily the time the noise began. Differences in population, willingness to report and access to the reporting system can also affect the counts. A cell with no mapped reports should not be interpreted as silent.",
+      "Its value for economic analysis is to identify places for closer investigation rather than to assign blame or rank neighbourhood welfare. Comparing reports with sound measurements, land use, population and enforcement records would help separate exposure from reporting behaviour. That distinction matters if the map is used to allocate inspection resources or evaluate whether a policy actually reduced disturbance."
+    ]
   },
   {
     "slug": "tariff-shock",
@@ -153,7 +219,13 @@
     "tags": "World · Markets",
     "width": 1920,
     "height": 1280,
-    "video": "/assets/maps/tariff-shock.mp4"
+    "video": "/assets/maps/tariff-shock.mp4",
+    "essay": [
+      "A policy announcement changes markets through expectations. Investors reassess future earnings, costs and risk before the eventual effects on production and trade can be observed. A geographic animation allows those adjustments to be compared across financial centres without treating the world as a single trading session.",
+      "This animation uses Yahoo Finance daily closing levels for selected stock indices from 26 March to 24 April 2025. Each market is compared with its own local close on 2 April, before the US tariff announcement. Coral indicates a level below that baseline and teal a level above it. Python prepares the series and renders the animation on an Equal Earth map.",
+      "The observations are in local currency and follow local trading calendars. They are not simultaneous global prices or returns converted into one investor’s currency. Where a market is closed, the display retains its last available observation. Index construction also differs, so the series should not be assumed to have identical dividend treatment.",
+      "For an economist, the interpretation concerns repricing around an event, not proof of a single cause. Exchange rates, monetary expectations and other news can move alongside tariff announcements. Country shading represents the selected market index, not the performance of every firm or the whole national economy. The animation makes the sequence visible; a causal assessment would require a separate design and evidence about firms’ exposure to the policy."
+    ]
   },
   {
     "slug": "red-sea-shift",
@@ -166,6 +238,12 @@
     "tags": "World · Shipping",
     "width": 1920,
     "height": 1510,
-    "video": "/assets/maps/red-sea-shift.mp4"
+    "video": "/assets/maps/red-sea-shift.mp4",
+    "essay": [
+      "A shipping disruption changes the use of a network, not simply the number of vessels on the water. Avoiding one passage can increase traffic elsewhere, lengthen journeys and alter the amount of vessel capacity required to carry a given cargo. This animation makes that spatial adjustment visible.",
+      "The underlying observations are daily vessel crossings from IMF PortWatch and the UN Global Platform. The comparison uses 1–18 November 2023 as its baseline and the February 2024 mean as its final view. Intermediate dates show trailing seven-day means. Red and orange represent declines relative to the baseline, blue small changes, and turquoise and lime increases.",
+      "Python combines the count series with schematic maritime corridors on an Equal Earth map. Route width follows traffic relative to each passage’s own baseline. The moving strokes illustrate change; they are not individual AIS ship tracks. Crossings at different monitoring points cannot be added and interpreted as a count of unique vessels, because one vessel can pass several points.",
+      "The economic mechanism is the use of more time and resources to maintain a connection. Longer journeys can affect vessel availability, fuel requirements and firms’ inventory decisions. The map does not estimate any of those costs, identify the cargo aboard the vessels or prove that the same ships moved from the Red Sea to the Cape. It documents a change in observed crossings and locates the adjustment that a fuller transport-cost analysis would need to explain."
+    ]
   }
 ]
