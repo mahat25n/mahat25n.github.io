@@ -30,3 +30,11 @@
 .map-preview[href="/maps/tariff-shock/"] img{position:absolute;width:111.11111%;height:131.68724%;max-width:none;left:-6.66667%;top:-7.94239%;object-fit:fill;transform:none}
 .map-preview[href="/maps/temperature-records/"] img{position:absolute;width:106.38298%;height:118.30838%;max-width:none;left:-4.25532%;top:-5.60494%;object-fit:fill;transform:none}
 .map-preview[href="/maps/turkiye-population/"] img{position:absolute;width:112.35955%;height:249.68789%;max-width:none;left:-7.30337%;top:-19.91261%;object-fit:fill;transform:none}
+
+/* Make each map card one clear, keyboard-accessible click target. */
+.map-card{position:relative;transition:border-color .18s,box-shadow .18s,transform .18s}
+.card-copy h2 a::after{content:"";position:absolute;inset:0;z-index:2;cursor:pointer}
+.map-card:hover,.map-card:focus-within{border-color:#667785;box-shadow:0 8px 24px #172b3a18;transform:translateY(-3px)}
+.card-copy h2 a:focus-visible{outline:none}
+.card-copy h2 a:focus-visible::after{outline:3px solid #526879;outline-offset:-3px;border-radius:12px}
+@media(prefers-reduced-motion:reduce){.map-card{transition:none}.map-card:hover,.map-card:focus-within{transform:none}}
