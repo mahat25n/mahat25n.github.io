@@ -14,4 +14,4 @@
 .map-main,.maps-page .topbar{max-width:1320px}.map-grid{column-gap:28px}.map-preview{aspect-ratio:4/5}.card-copy{padding:20px 22px 23px}
 
 /* Compact image-led cards: cropped previews only; article maps remain intact. */
-.map-main,.maps-page .topbar{max-width:1160px}.map-grid{gap:28px}.map-preview{aspect-ratio:16/9}.map-preview img{object-fit:cover;object-position:center 42%}.card-copy{padding:23px 24px 26px}.card-copy>p:not(.eyebrow){display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}.play-tag{font-size:10px;padding:3px 8px;bottom:9px;left:9px}
+.map-main,.maps-page .topbar{max-width:1160px}.map-grid{gap:28px}.map-preview{aspect-ratio:16/9}.map-preview img{object-fit:cover;object-position:center 42%;transform:scale(1.12)}.map-preview:hover img{transform:scale(1.12)}.card-copy{padding:23px 24px 26px}.card-copy>p:not(.eyebrow){display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}.play-tag{font-size:10px;padding:3px 8px;bottom:9px;left:9px}
