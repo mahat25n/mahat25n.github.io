@@ -17,7 +17,7 @@ if(tools&&search&&count&&empty){
       p.hidden=!match;
       if(match)visible++;
     }
-    count.textContent=`${visible} of ${papers.length} selected journal articles · Newest first`;
+    count.textContent=`${visible} of ${papers.length} journal articles · Newest first`;
     empty.hidden=visible!==0;
   };
   for(const b of buttons)b.addEventListener('click',()=>{
