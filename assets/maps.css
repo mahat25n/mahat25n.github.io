@@ -33,6 +33,11 @@
 .map-preview[href="/maps/temperature-records/"] img{position:absolute;width:106.38298%;height:118.30838%;max-width:none;left:-4.25532%;top:-5.60494%;object-fit:fill;transform:none}
 .map-preview[href="/maps/turkiye-population/"] img{position:absolute;width:112.35955%;height:249.68789%;max-width:none;left:-7.30337%;top:-19.91261%;object-fit:fill;transform:none}
 
+.map-preview[href="/maps/europe-electric-arteries/"] img{position:absolute;width:166.66667%;height:209.50696%;max-width:none;left:-53.33333%;top:-67.04223%;object-fit:fill;transform:none}
+.map-preview[href="/maps/global-airline-connections/"] img{position:absolute;width:172.41379%;height:216.73133%;max-width:none;left:-37.06897%;top:-34.24355%;object-fit:fill;transform:none}
+.map-preview[href="/maps/willamette-river-memory/"] img{position:absolute;width:158.73016%;height:199.53044%;max-width:none;left:-35.23810%;top:-55.46946%;object-fit:fill;transform:none}
+.map-preview[href="/maps/grand-canyon-inside-out/"] img{position:absolute;width:158.73016%;height:199.53044%;max-width:none;left:-40.47619%;top:-61.45537%;object-fit:fill;transform:none}
+
 /* Make each map card one clear, keyboard-accessible click target. */
 .map-card{position:relative;transition:border-color .18s,box-shadow .18s,transform .18s}
 .card-copy h2 a::after{content:"";position:absolute;inset:0;z-index:2;cursor:pointer}
