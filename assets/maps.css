@@ -45,3 +45,10 @@
 .card-copy h2 a:focus-visible{outline:none}
 .card-copy h2 a:focus-visible::after{outline:3px solid #526879;outline-offset:-3px;border-radius:12px}
 @media(prefers-reduced-motion:reduce){.map-card{transition:none}.map-card:hover,.map-card:focus-within{transform:none}}
+
+.africa-contents{columns:2;column-gap:32px;padding-inline-start:1.5rem;margin:0 0 28px;line-height:1.7}
+.africa-contents li{break-inside:avoid;padding:3px 0}
+.africa-contents a,.essay:has(.africa-contents) section[id] a{text-decoration:underline;text-underline-offset:.13em}
+.essay:has(.africa-contents) section[id]{scroll-margin-top:24px}
+.map-preview[href="/maps/africa-in-projection/"] img,.map-preview[href="/maps/africa-in-projection-animation/"] img{transform:none}
+@media(max-width:550px){.africa-contents{columns:1}}
